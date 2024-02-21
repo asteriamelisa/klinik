@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| melisa
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('testing', function () {
     return view('welcome');
 });
